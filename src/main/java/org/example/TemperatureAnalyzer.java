@@ -68,7 +68,7 @@ public class TemperatureAnalyzer {
         if(day1Day2CompareResult < 0){
             out.println("Day 1 (" + day1TempWrapper + "°C) was cooler than Day 2 (" + day2TempWrapper + "°C).\n");
         }else if(day1Day2CompareResult > 0){
-            out.println("Day 2 (" + day2TempWrapper + "°C) was cooler than Day 1 (" + day1TempWrapper + "°C).\n");
+            out.println("Day 1 (" + day1TempWrapper + "°C) was warmer than Day 2 (" + day2TempWrapper + "°C).\n");
         }else{
             out.println("Day 1 (" + day1TempWrapper + "°C) was the same temperature as Day 2 (" + day2TempWrapper + "°C).\n");;
         }
